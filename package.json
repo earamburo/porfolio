@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.13",
+    "eslint-config-react-app": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.1"
+  },
+  "name": "portfolio",
+  "description": "My personal portfolio website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earamburo/porfolio.git"
+  },
+  "author": "Andres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/earamburo/porfolio/issues"
+  },
+  "homepage": "https://github.com/earamburo/porfolio#readme"
+}
